@@ -3,7 +3,6 @@
 import { ReactNode, useState } from "react";
 import { Header } from "./header/Header";
 import { Menu } from "./menu/Menu";
-import { Footer } from "./footer/Footer";
 import { BottomElements } from "./bottomElements/BottomElements";
 
 export const MainLayout = ({ children }: { children: ReactNode }) => {
@@ -14,12 +13,11 @@ export const MainLayout = ({ children }: { children: ReactNode }) => {
   };
 
   return (
-    <div className="w-screen h-screen bg-shaoBlack">
-      <Menu menuOpen={menuOpen} />
+    <div className="bg-shaoBlack">
+      <Menu menuOpen={menuOpen} closeMenu={() => setMenuOpen(false)} />
       <Header menuOpen={menuOpen} toggleMenu={toggleMenu} />
       {children}
       <BottomElements />
-      <Footer />
     </div>
   );
 };

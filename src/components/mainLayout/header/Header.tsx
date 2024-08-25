@@ -9,7 +9,7 @@ export const Header = ({
   toggleMenu: () => void;
 }) => {
   return (
-    <div className='z-40 absolute w-screen h-24 p-6 backdrop-blur-sm flex flex-row justify-between items-center'>
+    <div className='z-40 fixed w-screen h-24 p-6 backdrop-blur-sm flex flex-row justify-between items-center'>
       <div>
         <Image
           src='/shao_logo.png'
