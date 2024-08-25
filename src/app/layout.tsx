@@ -1,6 +1,11 @@
 import type { Metadata } from "next";
 import { Lexend } from "next/font/google";
 import "./globals.css";
+import { MainLayout } from "@/components/mainLayout/MainLayout";
+
+import { config } from '@fortawesome/fontawesome-svg-core'
+import '@fortawesome/fontawesome-svg-core/styles.css'
+config.autoAddCss = false
 
 const lexend = Lexend({ subsets: ["latin"] });
 
@@ -17,7 +22,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={lexend.className}>
-        {children}
+        <MainLayout>
+          {children}
+        </MainLayout>
       </body>
     </html>
   );

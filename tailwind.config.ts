@@ -9,7 +9,10 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        
+        shaoBlack:'#121212',
+        shaoWhite: '#F2F0EF',
+        shaoPink: '#C41D62',
+        shaoOrange: '#FFA060',
       }
     },
   },
