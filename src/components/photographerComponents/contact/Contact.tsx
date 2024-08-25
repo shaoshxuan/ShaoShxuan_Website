@@ -10,28 +10,18 @@ export const Contact = () => {
         <div className="relative left-0">
           <div className="my-4 text-xl md:text-3xl font-bold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-shaoPink to-shaoOrange">
-              CONTACT
+              SUPPORT HERE
             </span>
           </div>
           <div className="text-base md:text-xl font-light text-shaoWhite">
             <div className="my-4">
-              I'm passionate about{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-shaoPink to-shaoOrange">
-                crafting intuitive and responsive web and mobile applications
-              </span>{" "}
-              that meet users' needs.
+              If you’re captivated by my work and would like to bring some of it into your space, there are several upcoming ways to support and purchase my photos. Do look forward!
             </div>
+            {/* <div className="my-4">
+              You can visit my online store, where I <span className="text-transparent bg-clip-text bg-gradient-to-r from-shaoPink to-shaoOrange">offer a curated selection of prints available</span> in various sizes and finishes.
+            </div> */}
             <div className="my-4">
-              Whether you have a project in mind, need help with front-end
-              development, or just want to connect,{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-shaoPink to-shaoOrange">
-                I'd love to hear from you
-              </span>
-              !
-            </div>
-            <div className="my-4">
-              Feel free to reach out via email or LinkedIn, and let's bring your
-              ideas to life!
+              Your future support will not only helps <span className="text-transparent bg-clip-text bg-gradient-to-r from-shaoPink to-shaoOrange">sustain my passion</span> but also allows you to <span className="text-transparent bg-clip-text bg-gradient-to-r from-shaoPink to-shaoOrange">own a piece of art that resonates with you</span>.
             </div>
           </div>
           <div className="my-4 text-shaoWhite">

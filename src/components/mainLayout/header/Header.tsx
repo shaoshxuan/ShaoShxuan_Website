@@ -13,7 +13,7 @@ export const Header = ({
       <div>
         <Image
           src='/shao_logo.png'
-          width={100}
+          width={75}
           height={500}
           alt='Shao Shxuan Logo'
         />

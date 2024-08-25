@@ -9,7 +9,7 @@ export default function Home() {
     <main className="">
       <Landing />
       <Experience />
-      <Projects />
+      {/* <Projects /> */}
       <Contact />
       <Footer />
     </main>
