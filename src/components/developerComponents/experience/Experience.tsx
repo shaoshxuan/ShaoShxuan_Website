@@ -13,7 +13,7 @@ export const Experience = () => {
             <div className="my-8 flex flex-col">
               {professionalExperience.map((experience) => {
                 return (
-                  <div className="my-4 w-auto max-w-5xl text-shaoWhite">
+                  <div className="my-4 w-auto max-w-5xl text-shaoWhite" key={experience.company}>
                     <div className="flex justify-start items-center">
                       <div className="hidden lg:mr-2 lg:w-1/4 lg:flex flex-col justify-start items-center">
                         <div className="flex flex-col justify-start items-center text-base font-extralight">
@@ -49,7 +49,7 @@ export const Experience = () => {
                         <div className="flex flex-wrap justify-start items-center">
                           {experience.techUsed.map((tech) => {
                             return (
-                              <div className="mr-2 my-1 p-2 text-sm font-light rounded bg-gradient-to-r from-shaoPink to-shaoOrange">
+                              <div className="mr-2 my-1 p-2 text-sm font-light rounded bg-gradient-to-r from-shaoPink to-shaoOrange" key={tech}>
                                 {tech.toUpperCase()}
                               </div>
                             );

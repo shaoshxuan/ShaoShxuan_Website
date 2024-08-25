@@ -15,23 +15,21 @@ export const Contact = () => {
           </div>
           <div className="text-base md:text-xl font-light text-shaoWhite">
             <div className="my-4">
-              I'm passionate about{" "}
+              {`I'm passionate about `}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-shaoPink to-shaoOrange">
                 crafting intuitive and responsive web and mobile applications
               </span>{" "}
-              that meet users' needs.
+              {`that meet users' needs.`}
             </div>
             <div className="my-4">
-              Whether you have a project in mind, need help with front-end
-              development, or just want to connect,{" "}
+              {`Whether you have a project in mind, need help with front-end development, or just want to connect, `}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-shaoPink to-shaoOrange">
                 I'd love to hear from you
               </span>
-              !
+              {'!'}
             </div>
             <div className="my-4">
-              Feel free to reach out via email or LinkedIn, and let's bring your
-              ideas to life!
+              {`Feel free to reach out via email or LinkedIn, and let's bring your ideas to life!`}
             </div>
           </div>
           <div className="my-4 text-shaoWhite">
