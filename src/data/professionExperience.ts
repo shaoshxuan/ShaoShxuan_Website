@@ -15,7 +15,7 @@ export const professionalExperience = [
     "startDate": "Aug 2022",
     "endDate": "Jun 2024",
     "description": "Part of the core Securities Execution team that maintains and develop for a critical web application for relationship mnagaers to handle trades with clients. Handled various crucial milestones, such as the revamp of the design system and decommissioning an older version of the order management system, and various new features focusing on the enhancement of user experience and workflow efficiency.",
-    "techUsed": ["React", "Redux", "Cypress", "Storybook", "Spring Boot"]
+    "techUsed": ["React", "Redux", "Cypress", "Storybook"]
   },
   {
     "company": "Macquarie Group",
