@@ -12,6 +12,9 @@ const lexend = Lexend({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Shao Shxuan's Portfolio Website",
   description: "Shao Shxuan's Portfolio Website",
+  icons: {
+    icon: '/favicon.ico',
+  },
 };
 
 export default function RootLayout({

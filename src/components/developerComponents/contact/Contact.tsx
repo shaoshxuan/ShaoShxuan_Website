@@ -42,7 +42,7 @@ export const Contact = () => {
             >
               <FontAwesomeIcon
                 icon={faEnvelope}
-                className="m-4 ml-0 text-4xl lg:text-5xl transition-all hover:text-shaoOrange"
+                className="m-4 ml-0 text-4xl transition-all hover:text-shaoOrange"
               />
             </Link>
             <Link
@@ -52,7 +52,7 @@ export const Contact = () => {
             >
               <FontAwesomeIcon
                 icon={faLinkedin}
-                className="m-4 text-4xl lg:text-5xl transition-all hover:text-shaoOrange"
+                className="m-4 text-4xl transition-all hover:text-shaoOrange"
               />
             </Link>
           </div>
