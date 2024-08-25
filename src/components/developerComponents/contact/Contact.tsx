@@ -21,8 +21,8 @@ export const Contact = () => {
         </div>
       </div>
       <div className="m-4 cursor-pointer text-shaoWhite">
-        <Link href='mailto:shaoshxuan.chua@gmail.com'><FontAwesomeIcon icon={faEnvelope} className="m-4 text-5xl transition-all hover:text-shaoOrange" /></Link>
-        <Link href='https://www.linkedin.com/in/shaoshxuanchua/' target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} className="m-4 text-5xl transition-all hover:text-shaoOrange" /></Link>
+        <Link href='mailto:shaoshxuan.chua@gmail.com'><FontAwesomeIcon icon={faEnvelope} className="m-4 text-4xl md:text-5xl transition-all hover:text-shaoOrange" /></Link>
+        <Link href='https://www.linkedin.com/in/shaoshxuanchua/' target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} className="m-4 text-4xl md:text-5xl transition-all hover:text-shaoOrange" /></Link>
       </div>
     </div>
   )

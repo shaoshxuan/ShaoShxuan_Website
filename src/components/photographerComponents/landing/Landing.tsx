@@ -11,7 +11,7 @@ export const Landing = () => {
         <br/>
         HERE ARE MY FAVORITE SHOTS! ENJOY!
       </div>
-      <div className="z-20 absolute top-1/2 left-1/2 -translate-y-1/2 rotate-[30deg]">
+      <div className="z-20 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rotate-[30deg]">
         <FontAwesomeIcon icon={faCamera} className="text-[200px] md:text-[400px] text-shaoWhite/[.02]" />
       </div>
     </div>
