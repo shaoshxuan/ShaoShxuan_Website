@@ -24,9 +24,9 @@ export const Contact = () => {
             <div className="my-4">
               {`Whether you have a project in mind, need help with front-end development, or just want to connect, `}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-shaoPink to-shaoOrange">
-                I'd love to hear from you
+                {`I'd love to hear from you`}
               </span>
-              {'!'}
+              {`!`}
             </div>
             <div className="my-4">
               {`Feel free to reach out via email or LinkedIn, and let's bring your ideas to life!`}
